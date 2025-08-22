@@ -1,43 +1,44 @@
-# Inter-Vlan-routing-lab
-Cisco Packet Tracer project for Inter-Vlan routing using router-on-a-stick 
-# 🚀 Inter-VLAN Routing Lab (Router-on-a-Stick)
+# 🚀 Inter-VLAN Routing for a School Network
 
-Welcome to my *Cisco Packet Tracer Networking Project*!  
-This lab demonstrates *Inter-VLAN Routing* using a *Router-on-a-Stick* configuration with multiple switches and VLANs.  
+Welcome to my *Cisco Packet Tracer Networking Project! This lab demonstrates **Inter-VLAN Routing* for a school network using a *Router-on-a-Stick* configuration with multiple switches and VLANs.
 
 ---
 
 ## 🎯 Project Objective
-- Create *two VLANs* (VLAN 10 & VLAN 20).  
-- Configure *Router-on-a-Stick* for inter-VLAN communication.  
-- Test connectivity between PCs in different VLANs.  
+
+- Create three VLANs for different user groups: Students, Faculty, and Guests.
+- Configure *Router-on-a-Stick* for inter-VLAN communication.
+- Test connectivity between PCs in different VLANs.
 
 ---
 
 ## 🖥 Network Topology
 
-📌 The topology consists of:  
-- *1 Router (Cisco 1941)*  
-- *2 Switches (Cisco 2960)*  
-- *4 PCs across VLANs*  
+📌 The topology consists of:
+- *1 Router (Cisco 1940)*
+- *3 Switches (Cisco 2960)*
+- *9 PCs across VLANs*
 
-![Network Topology Screenshot](topology.png)  
+![Network Topology Screenshot](topology.png) 
+
+---
+
+## 📊 VLAN and IP Addressing Table
+
+| VLAN ID | VLAN Name | Subnet | IP Address Range |
+| :--- | :--- | :--- | :--- |
+| *10* | Students | 192.168.10.0/24 | 192.168.10.1 - 192.168.10.254 |
+| *20* | Faculty | 192.168.20.0/24 | 192.168.20.1 - 192.168.20.254 |
+| *30* | Guests | 192.168.30.0/24 | 192.168.30.1 - 192.168.30.254 |
+
+---
+
+
+
  
 
----
 
-## 📊 IP Addressing Table
 
-| Device   | Interface       | IP Address       | VLAN |
-|----------|-----------------|-----------------|------|
-| Router   | Fa0/1.10        | 192.168.10.1    | 10   |
-| Router   | Fa0/1.20        | 192.168.20.1    | 20   |
-| PC0      | NIC             | 192.168.10.2    | 10   |
-| PC1      | NIC             | 192.168.10.3    | 10   |
-| PC2      | NIC             | 192.168.20.2    | 20   |
-| PC3      | NIC             | 192.168.20.3    | 20   |
-
----
 ## 📂 Project Files
 
 - [Download the Packet Tracer Topology](Inter-Vlan.pkt)
