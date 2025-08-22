@@ -38,4 +38,6 @@ This lab demonstrates *Inter-VLAN Routing* using a *Router-on-a-Stick* configura
 | PC3      | NIC             | 192.168.20.3    | 20   |
 
 ---
+## 📂 Project Files
 
+- [Download the Packet Tracer Topology](Inter-Vlan.pkt)
