@@ -7,4 +7,4 @@ This document verifies that inter-VLAN routing is working by performing a ping t
 - Ping from PC3 (VLAN 10) to PC8 (VLAN 30) was successful.
 - Example output:
   - Screenshot of successful ping:
-![Ping Success](screenshots/ping_success.png)
+![Ping Success](ping_success.png)
